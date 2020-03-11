@@ -1,3 +1,29 @@
+#welcome interface
+print("Welcome to the UNEB weight calculation application website.")
+#to get user's course preference
+
+course = input('''Please select a course from:
+                  -Computer Science
+                  -Law
+                  -Medicine
+                  -Economics
+                  -Engineering''')
+#to get the user's subjects and compare accordingly
+#######################################################lastdone####################################
+combination = sorted(input('Please enter your combination in the format: "P C B submath"'))
+
+
+Computer_Science = ["C", "E", "M", "P", "subict"]
+Law = ["D","E","H","L"]
+Medicine = ["B", "C", "M", "P"]
+Economics = ["E", "H", "L", "M"]
+Engineering = ["B", "C", "M", "P"]
+
+
+#assessing
+for course == "Computer Science":
+   is i in Computer_Science
+
 legend  = {"A" : 6, "B" : 5, "C": 4, "D" : 3, "E" : 2, "O" : 1, "F" : 0}
 best = input ("Enter your best subject's results")
 
