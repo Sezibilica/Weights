@@ -12,17 +12,14 @@ course = input('''Please select a course from:
 #######################################################lastdone####################################
 combination = sorted(input('Please enter your combination in the format: "P C B submath"'))
 
+courses = {"Computer_Science":["C", "E", "M", "P", "subict"],\
+           "Law":["D","E","H","L"],\
+           "Medicine":["B", "C", "M", "P"],\
+           "Economics":["E", "H", "L", "M"],\
+           "Engineering":["B", "C", "M", "P"]
+           }
 
-Computer_Science = ["C", "E", "M", "P", "subict"]
-Law = ["D","E","H","L"]
-Medicine = ["B", "C", "M", "P"]
-Economics = ["E", "H", "L", "M"]
-Engineering = ["B", "C", "M", "P"]
 
-
-#assessing
-for course == "Computer Science":
-   is i in Computer_Science
 
 legend  = {"A" : 6, "B" : 5, "C": 4, "D" : 3, "E" : 2, "O" : 1, "F" : 0}
 best = input ("Enter your best subject's results")
